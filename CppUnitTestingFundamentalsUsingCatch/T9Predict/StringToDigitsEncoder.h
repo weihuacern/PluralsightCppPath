@@ -7,11 +7,11 @@ typedef  std::vector<unsigned int> Digits;
 
 class StringToDigitsEncoder
 {
-	std::map<char, unsigned int> m_char_to_digit;
+  std::map<char, unsigned int> m_char_to_digit;
 
-public:
-	StringToDigitsEncoder();
-	~StringToDigitsEncoder();
-	Digits Encode(const std::string& str) const;
+ public:
+  StringToDigitsEncoder();
+  ~StringToDigitsEncoder();
+  Digits Encode(const std::string& str) const;
 };
 

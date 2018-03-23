@@ -7,14 +7,14 @@
 
 class WordsTree
 {
-	WordsNode* m_root;
+  WordsNode* m_root;
 
-	WordsNode* FindNode(const Digits& encoding)const;
+  WordsNode* FindNode(const Digits& encoding)const;
 
-public:
-	WordsTree();
-	~WordsTree();
+ public:
+  WordsTree();
+  ~WordsTree();
 
-	void AddWord(const std::string& word, const Digits encoding);
-	Words GetWords(const Digits& encoding)const;
+  void AddWord(const std::string& word, const Digits encoding);
+  Words GetWords(const Digits& encoding)const;
 };

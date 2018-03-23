@@ -13,10 +13,10 @@ Word::~Word()
 
 const string& Word::GetText() const
 {
-	return m_text;
+  return m_text;
 }
 
 const unsigned& Word::GetFrequency() const
 {
-	return m_frequency;
+  return m_frequency;
 }

@@ -5,13 +5,13 @@
 
 class Engine
 {
-	WordsTree m_wordsTree;
-	StringToDigitsEncoder m_encoder;
+  WordsTree m_wordsTree;
+  StringToDigitsEncoder m_encoder;
 
-public:
-	Engine(){}
+ public:
+  Engine(){}
 
-	void LearnNewWords(Words words);
+  void LearnNewWords(Words words);
 
-	Words GetWordsByDigits(const Digits& digits)const;
+  Words GetWordsByDigits(const Digits& digits)const;
 };
